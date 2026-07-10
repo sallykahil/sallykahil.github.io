@@ -17,7 +17,6 @@
   --text-light:#8A8278;--line:#E2DDD6;
 }
 body{font-family:'Manrope',sans-serif;background:var(--beige);color:var(--charcoal);overflow-x:hidden}
-
 nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:space-between;background:var(--navy);position:sticky;top:0;z-index:200}
 .nav-logo{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;letter-spacing:.5px;color:#fff;text-decoration:none}
 .nav-logo span{color:var(--gold)}
@@ -26,7 +25,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .nav-center a:hover{color:var(--gold)}
 .nav-cta{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:9px 22px;border:1px solid var(--gold);color:var(--gold);border-radius:2px;text-decoration:none;transition:background .2s,color .2s}
 .nav-cta:hover{background:var(--gold);color:var(--navy)}
-
 .hero{background:var(--navy);padding:96px 60px 80px;position:relative;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1fr 340px;gap:80px;align-items:end}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:28px}
@@ -43,7 +41,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .available-chip{display:inline-flex;align-items:center;gap:7px;margin-top:28px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:1px;color:rgba(255,255,255,.45)}
 .chip-dot{width:6px;height:6px;border-radius:50%;background:#4CAF87;animation:glow 2.5s infinite}
 @keyframes glow{0%,100%{opacity:1}50%{opacity:.25}}
-
 .hero-cards{display:flex;flex-direction:column;gap:1px;background:rgba(255,255,255,.06);border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
 .hc{padding:22px 24px;background:rgba(255,255,255,.03);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.06);transition:background .2s}
 .hc:last-child{border-bottom:none}
@@ -51,22 +48,18 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .hc-n{font-family:'Playfair Display',serif;font-size:36px;font-weight:400;color:#fff;letter-spacing:-1px}
 .hc-n em{font-style:italic;color:var(--gold)}
 .hc-l{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.3);font-weight:500}
-
 .gold-divider{height:1px;background:linear-gradient(to right,transparent,var(--gold-border),transparent)}
-
 .ticker-wrap{background:var(--navy);overflow:hidden;padding:14px 0}
 .ticker-track{display:flex;width:max-content;animation:scroll 28s linear infinite}
 .ticker-track:hover{animation-play-state:paused}
 .ti{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);padding:0 24px;white-space:nowrap}
 .tg{color:var(--gold);opacity:.35;padding:0 4px}
 @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
 .section{padding:80px 60px}
 .sec-label{display:inline-flex;align-items:center;gap:10px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
 .sec-label::before{content:'';width:20px;height:1px;background:var(--gold);opacity:.6}
 .sec-heading{font-family:'Playfair Display',serif;font-size:clamp(34px,4vw,52px);font-weight:400;letter-spacing:-1px;line-height:1.1;color:var(--navy);margin-bottom:52px}
 .sec-heading em{font-style:italic;color:var(--charcoal2)}
-
 .skills-bg{background:var(--white)}
 .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
 .skill-card{background:var(--white);padding:36px 32px;transition:background .2s;position:relative;overflow:hidden}
@@ -78,7 +71,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .skill-tags{display:flex;flex-wrap:wrap;gap:7px}
 .stag{font-family:'DM Mono',monospace;font-size:10px;padding:4px 10px;border:1px solid var(--line);border-radius:2px;color:var(--text-light);transition:border-color .2s,color .2s}
 .skill-card:hover .stag{border-color:var(--gold-border);color:var(--gold2)}
-
 .exp-bg{background:var(--beige2)}
 .exp-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px}
 .exp-list{display:flex;flex-direction:column}
@@ -95,7 +87,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .eb-free{background:var(--gold-light);color:var(--gold2);border:1px solid var(--gold-border)}
 .eb-ft{background:var(--beige3);color:var(--text-light);border:1px solid var(--line)}
 .eb-vol{background:#EEF2FA;color:#3A5A9E;border:1px solid #C0CDE8}
-
 .edu-block{background:var(--navy);border-radius:10px;padding:36px;display:flex;flex-direction:column;gap:24px}
 .edu-label{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
 .edu-item{padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.07)}
@@ -103,7 +94,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .edu-deg{font-family:'Playfair Display',serif;font-size:17px;font-weight:400;color:#fff;line-height:1.3;margin-bottom:6px}
 .edu-school{font-size:12px;color:rgba(255,255,255,.4)}
 .edu-yr{font-family:'DM Mono',monospace;font-size:10px;color:var(--gold);opacity:.7;margin-top:4px}
-
 .proj-bg{background:var(--white)}
 .proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
 .pcard{background:var(--white);padding:36px 32px;display:flex;flex-direction:column;gap:14px;cursor:pointer;transition:background .25s;position:relative;overflow:hidden}
@@ -122,7 +112,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .pcard-desc{font-size:12px;font-weight:400;color:var(--charcoal2);line-height:1.7;transition:color .25s}
 .pcard-stack{font-family:'DM Mono',monospace;font-size:9px;color:var(--text-light);padding-top:12px;border-top:1px solid var(--line);margin-top:auto;transition:color .25s,border-top-color .25s;letter-spacing:.3px}
 .pcard-link{font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--gold2);text-decoration:none;display:inline-flex;align-items:center;gap:5px;transition:color .25s}
-
 .contact-section{background:var(--navy);padding:96px 60px;position:relative;overflow:hidden}
 .contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
 .contact-sec-label{display:inline-flex;align-items:center;gap:10px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
@@ -139,7 +128,6 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .clink-name{font-size:15px;font-weight:600;color:#fff;transition:color .2s}
 .clink-sub{font-size:11px;color:rgba(255,255,255,.3);margin-top:3px}
 .clink-arr{font-size:20px;color:rgba(255,255,255,.2);transition:color .2s}
-
 .contact-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:40px}
 .cc-title{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;font-style:italic;color:var(--gold);margin-bottom:28px}
 .cc-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.06)}
@@ -147,12 +135,10 @@ nav{height:68px;padding:0 60px;display:flex;align-items:center;justify-content:s
 .cc-key{font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.3)}
 .cc-val{font-family:'DM Mono',monospace;font-size:11px;color:rgba(255,255,255,.65)}
 .cc-val-gold{color:var(--gold)}
-
 footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding:24px 60px;display:flex;align-items:center;justify-content:space-between}
 .ft{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.2)}
 .ft-logo{font-family:'Playfair Display',serif;font-size:15px;color:rgba(255,255,255,.3)}
 .ft-logo span{color:var(--gold);opacity:.7}
-
 @media(max-width:780px){
   nav,.hero,.section,.contact-section,footer{padding-left:24px;padding-right:24px}
   .hero-grid,.exp-inner,.contact-inner{grid-template-columns:1fr;gap:40px}
@@ -162,7 +148,6 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
 </style>
 </head>
 <body>
-
 <nav>
   <a href="#" class="nav-logo">Sally<span> Kahil</span></a>
   <div class="nav-center">
@@ -173,7 +158,6 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
   </div>
   <a href="mailto:sallyka7il@gmail.com" class="nav-cta">Hire Me</a>
 </nav>
-
 <section class="hero">
   <div class="hero-grid">
     <div>
@@ -197,7 +181,6 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
     </div>
   </div>
 </section>
-
 <div class="gold-divider"></div>
 <div class="ticker-wrap">
   <div class="ticker-track">
@@ -206,7 +189,6 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
   </div>
 </div>
 <div class="gold-divider"></div>
-
 <section class="skills-bg" id="skills">
   <div class="section" style="padding-bottom:0">
     <div class="sec-label">01 — Expertise</div>
@@ -231,9 +213,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
   </div>
   <div style="padding-bottom:80px"></div>
 </section>
-
 <div class="gold-divider"></div>
-
 <section class="exp-bg" id="experience">
   <div class="section">
     <div class="sec-label">02 — Career</div>
@@ -274,21 +254,20 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
     </div>
   </div>
 </section>
-
 <div class="gold-divider"></div>
-
 <section class="proj-bg" id="projects">
   <div class="section" style="padding-bottom:0">
     <div class="sec-label">03 — Work</div>
     <h2 class="sec-heading">Selected <em>Projects</em></h2>
   </div>
   <div class="proj-grid">
-    <div class="pcard" onclick="window.open('https://github.com/sallykahil','_blank')">
+    <div class="pcard" onclick="window.open('https://github.com/sallykahil/Infolio-Chatbot','_blank')">
       <span class="pcard-num">001</span>
-      <div class="pcard-name">AI-Powered Web Application</div>
-      <span class="pt pt-live">In Progress</span>
-      <p class="pcard-desc">ASP.NET front-end integrated with Python ML models via API endpoints. Built for real small business use cases.</p>
-      <div class="pcard-stack">ASP.NET · Python · ML APIs · Docker</div>
+      <div class="pcard-name">Infolio — RAG Chatbot</div>
+      <span class="pt pt-live">Live</span>
+      <p class="pcard-desc">Multi-tenant RAG chatbot for small businesses — trains on a business's own PDFs or website, embeds via a JS widget, with a dashboard for managing sources and conversations.</p>
+      <div class="pcard-stack">Python · Flask · RAG · JS Widget</div>
+      <a class="pcard-link" href="https://github.com/sallykahil/Infolio-Chatbot" target="_blank">View →</a>
     </div>
     <div class="pcard" onclick="window.open('https://github.com/sallykahil','_blank')">
       <span class="pcard-num">002</span>
@@ -329,12 +308,26 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
       <div class="pcard-stack">Docker · HTML · DevOps</div>
       <a class="pcard-link" href="https://github.com/sallykahil/Docker-Practice" target="_blank">View →</a>
     </div>
+    <div class="pcard" onclick="window.open('https://github.com/sallykahil/Titanic_Project','_blank')">
+      <span class="pcard-num">007</span>
+      <div class="pcard-name">Titanic Survival Prediction</div>
+      <span class="pt pt-done">Notebook</span>
+      <p class="pcard-desc">Binary classification model predicting passenger survival — data cleaning, feature engineering, and model evaluation.</p>
+      <div class="pcard-stack">Python · Jupyter · scikit-learn</div>
+      <a class="pcard-link" href="https://github.com/sallykahil/Titanic_Project" target="_blank">View →</a>
+    </div>
+    <div class="pcard" onclick="window.open('https://github.com/sallykahil/MCPDotNetReview','_blank')">
+      <span class="pcard-num">008</span>
+      <div class="pcard-name">MCP .NET Reviewer</div>
+      <span class="pt pt-live">In Progress</span>
+      <p class="pcard-desc">Custom Model Context Protocol server that lets AI agents read project structure, search code, check dependencies, and apply review suggestions directly on ASP.NET / .NET codebases.</p>
+      <div class="pcard-stack">C# · .NET · MCP · AI Tooling</div>
+      <a class="pcard-link" href="https://github.com/sallykahil/MCPDotNetReview" target="_blank">View →</a>
+    </div>
   </div>
   <div style="padding-bottom:80px"></div>
 </section>
-
 <div class="gold-divider"></div>
-
 <section class="contact-section" id="contact">
   <div class="contact-inner">
     <div>
@@ -362,12 +355,10 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
     </div>
   </div>
 </section>
-
 <footer>
   <span class="ft">© 2025 Sally Kahil</span>
   <span class="ft-logo">SK<span>.</span></span>
   <span class="ft">Full-Stack Developer · AI Engineer</span>
 </footer>
-
 </body>
 </html>
